@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>HTML</title>
+     <meta name="viewport" content="width=device-width, initial-scale">
+    </head>
+    <body>
+       <header>header</header>
+       <main>main</main> 
+       <h1>my first blog</h1>
+       <b>hello</b><br>
+       <strong>hello</strong><br>
+       <i>hhh</i><br>
+       <em>hello</em><br>
+       <u>hhhhhh</u><br>
+       <ins>jj<del>hhh</del>jjjj</ins><br>
+       <b title="helooooo"><i>hhh</i></b><br>
+       <aside>gggggg</aside><hr>
+       <p>hjjhh &nbsp; &lt; &gap; jhgjh</p>
+       <nav></nav>
+       <p>this is my first blog <span style="color:red">gfhgf</span> &nbsp;vjhof html of April 2k24,Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi nihil libero amet aspernatur! Debitis vitae eveniet nesciunt, consectetur atque omnis harum adipisci officia commodi accusamus eligendi doloremque possimus animi.</p><br>
+       <a href="/home">this is my previous blog</a>
+       <a href="https://www.linkedin.com/in/sameeksha-varshney-855000285/">guygiu</a>
+       <img src="https://tse4.mm.bing.net/th?id=OIP.Z19SZdzSJ4D8Rd7jTIh9-QHaKd&pid=Api&P=0&h=180"  height="200" width="200"><br>
+       <div style="background-color:red">hgvhvjhgvyjhgvyuhgvyuyu</div>
+       <iframe src="https://www.flipkart.com"></iframe>
+       <a target="_top" href="/home.html">tgrtg</a><br>
+       <a target="_blank" href="/home.html">tgrtg</a><br>
+       <a target="_self" href="/home.html">tgrtg</a><br>
+       <a target="_parent" href="/home.html">tgrtg</a><br> 
+       <section id="essaysection">
+        <h3>poem 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+    </section>     
+    <section id="poemsection">
+        <h3>poem 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+    </section> 
+    <ol start="11" type="i">
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+    </ol>    
+    <ul type="circle">
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+    </ul>  
+    <dl>
+        <dt>sameeksha</dt>
+        <dd>var</dd>
+        <dd>var</dd>
+        <dd>var</dd>
+    </dl>  
+    <table border="4" height="200" width="700">
+        <caption>my data</caption>
+        <tr>
+            <th>sr</th>
+            <th>name</th>
+            <th>age</th>
+            <th>mobno</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sameeksha</td>
+            <td>20</td>
+            <td>874874837</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sameeksha</td>
+            <td>20</td>
+            <td>6537575758</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>sameeksha</td>
+            <td>20</td>
+            <td>6537575758</td>
+        </tr>
+    </table><br>
+       <form action="">
+        <span>NAME</span>
+        <input type="text" placeholder="name is" autocomplete="off"><br><br>
+        <span>PASSWORD</span>
+        <input type="password" placeholder="yourpassword"><br><br>
+        <label>AGE</label>
+        <input type="number" placeholder="your age" value="18" required><br><br>
+        <label>HOBBIES:</label><br>
+        <input type="checkbox" id=""><label for="dance">dance</label><br>
+        <input type="checkbox"><label>singing</label><br>
+        <input type="checkbox"><label>drawing</label><br>
+        <label>GENDER:</label><br>
+        <input type="radio" name="GENDER" id="male" value="male"><label>male</label>
+        <input type="radio" name="GENDER" id="female" value="female"><label>female</label><br>
+        <label for="select-city">CITY</label><br>
+        <select>
+            <option>DELHI</option>
+            <option>mumbai</option>
+            <option>pune</option>
+            
+        </select><br>
+        <input type="submit"><br>
+        <button>SUBMIT</button>
+       </form>
+       <span>start</span>
+       <video src="https://youtu.be/2QKK-2P9oIo?si=bU2hw3Hr3ZPmqr9V" autoplay muted>
+        <span>end</span>
+        <a>sameeksha@gmail.com</a>
+        <a href="tel:874878708">667867</a>
+        <bdo dir="rtl">sameeksha</bdo><br>
+        CO<sub>2</sub><br>
+        10<sup>3</sup><br>
+        <del>hello</del><br>
+        <s>hello</s>
+        <abbr>sameeksha</abbr>
+        <q></q>
+        <blockquote></blockquote>
+        <cite></cite>
+        <address></address>
+        <footer>footer</footer>
+    </body>
+</html>
