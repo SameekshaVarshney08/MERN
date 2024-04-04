@@ -1,0 +1,44 @@
+button{
+  /* position:absolute;
+  top:50%;
+  left:50%;
+  /* hright:100px;
+   */
+   /* padding:8px 16px;
+   font-size: 24px;
+   border-radius: 100px;
+   border: none; */ 
+   /* transition-property: scale; */
+   /* transition-property: ; */
+   /* transition-duration: 500ms;
+   transition-timing-function: ease-in-out;
+   scale:2;
+   animation-name: button-animation-type1; */
+   animation-duration: 4s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 3;
+   animation-direction: alternate-reverse;
+   top:20px;
+   scale: 2px;
+   left:40px;
+}
+/* button:hover{
+  background-color: brown;
+  cursor:pointer;
+  scale:1.5;
+  
+} */
+@keyframes button-animation-type1{
+    0%{
+   top:20px;
+   left:40px;
+    }
+    30%{
+   top:20px;
+   left:40px;
+    }
+    60%{
+        top:500px;
+        left:40px;
+         }
+     }

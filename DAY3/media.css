@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+     box-sizing: border-box;
+}
+.parent{
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  background-color:blueviolet;
+  color: white;
+  height:600px;
+  width:500px;
+  text-align: center;
+}
+h2{
+ height: 100px;
+ background-color: brown;
+}
+@media(800px<= width <=1200px){
+.parent{
+    background-color:red;
+}
+}
+@media(200px<= width <=400px){
+    .parent{
+        /* background-color:red; */
+        height: 200px;
+        width:200px;
+    }
+    }
