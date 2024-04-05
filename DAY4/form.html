@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border:1.5px solid black;
+        }
+        div{
+            background-color: rgb(134, 187, 169);
+            font-size: 20px;
+            font-style:bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form onsubmit="submitform(event)">
+           <label>FIRSTNAME:</label> <input type="text" name="firstname" placeholder="firstname" onkeydown="firstnamechange(event)"/><br><br>
+           <label>LASTNAME:</label><input type="text" name="lastname" placeholder="lastname"/><br><br>
+           <label>AGE:</label><input type="number" name="age" placeholder="age"/><br><br>
+            HOBBIES:<br><br>
+            <input type="checkbox" name="hobbies" value="webD"/><label>webD</label><br>
+            <input type="checkbox" name="hobbies" value="drawing"/><label>drawing</label><br>
+            <input type="checkbox" name="hobbies" value="dance"/><label>dance</label><br>
+          <br> <button>SUBMIT</button>
+        </form>
+    </div>
+    <script src="./form.js">
+
+    </script>
+</body>
+</html>
